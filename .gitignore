@@ -1,1 +1,11 @@
-*.venv
+.venv/
+data/
+# 日志和缓存
+logs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 编辑器文件
+.vscode/
+.idea/
